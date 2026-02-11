@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+.env
+.env.*
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and caches
+*.log
+.cache/
+.mypy_cache/
+.pytest_cache/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local training artifacts
+checkpoints/
+activations/
+feature_dashboards/
+wandb/
+artifacts/
+prof/
+
+# Large model/SAE weights (force-add specific ones if needed)
+*.pt
+
+# Generated HTML dashboards / reports
+*.html
+
+# Data dumps
+cached_activations/
